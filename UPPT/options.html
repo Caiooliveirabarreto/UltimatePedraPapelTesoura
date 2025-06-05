@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>opções</title>
+    <style>
+       img{
+        margin-left: 700px;
+       }
+       button{
+        padding: 1%;
+        margin: 3%;
+        margin-left: 45%;
+       }
+    </style>
+</head>
+<body>
+    <img src="img/papel.jpg" alt="" width=" 400px">
+
+    <br>
+    <button id='papelBtn'>Papel
+    </button>
+    <br>
+    <img src="img/pedra.jpg" alt="" width=" 400px">
+    <br>
+    <button id='pedraBtn'>Pedra</button >
+    <br>
+    <img src="img/tesoura.jpg" alt="" width=" 400px">
+    <br>
+    <button  id='tesouraBtn'>Tesoura</button>
+    <br>
+    <img src=" img/landscape-placeholder.svg" alt=""width=" 400px">
+    <img src=" img/landscape-placeholder.svg" alt=""width=" 400px">
+    <img src=" img/landscape-placeholder.svg" alt=""width=" 400px">
+    <img src=" img/landscape-placeholder.svg" alt=""width=" 400px">
+    <img src=" img/landscape-placeholder.svg" alt="" width=" 400px">
+    <img src=" img/landscape-placeholder.svg" alt=""width=" 400px">
+    <img src=" img/landscape-placeholder.svg" alt=""width=" 400px">
+    <img src=" img/landscape-placeholder.svg" alt=""width=" 400px">
+    <img src=" img/landscape-placeholder.svg" alt=""width=" 400px">
+    <img src=" img/landscape-placeholder.svg" alt=""width=" 400px">
+    <img src=" img/landscape-placeholder.svg" alt=""width=" 400px">
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function(){
+        const pedra = document.getElementById('pedraBtn');
+        const papel = document.getElementById('papelBtn');
+        const tesoura = document.getElementById('tesouraBtn');
+        papel.addEventListener('click', function(){
+            window.location.href = 'resultado.html';
+        })
+        pedra.addEventListener('click', function(){
+            window.location.href = 'resultado.html';
+        })
+        tesoura.addEventListener('click', function(){
+            window.location.href = 'resultado.html';
+        })
+    })
+    
+</script>
+</html>
