@@ -1,20 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UPPT</title>
+    <title>Pedra, Papel e Tesoura</title>
 </head>
 <body>
+
     <div>
-        <p id="Jogador1">
-            Escolha sua Mão:
-        </p>
-        <button id="mostraOptions">
-        <a href="options.html">Opções</a>
-        </button>
-        
+        <h1>Pedra, Papel e Tesoura</h1>
+        <h2 id="status-jogo">Vez do Jogador 1</h2>
+
+        <div>
+            <div id="jogador1">
+                <h2>Jogador 1</h2>
+                <div>
+                    <button class="btn-escolha" data-choice="pedra">✊ Pedra</button>
+                    <button class="btn-escolha" data-choice="papel">✋ Papel</button>
+                    <button class="btn-escolha" data-choice="tesoura">✌️ Tesoura</button>
+                </div>
+                <div class="display-escolha">
+                    <p>Sua escolha:</p>
+                    <span id="escolha-jogador1">?</span>
+                </div>
+            </div>
+
+            <div id="jogador2">
+                <h2>Jogador 2</h2>
+                <div>
+                    <button class="btn-escolha" data-choice="pedra">✊ Pedra</button>
+                    <button class="btn-escolha" data-choice="papel">✋ Papel</button>
+                    <button class="btn-escolha" data-choice="tesoura">✌️ Tesoura</button>
+                </div>
+                <div>
+                    <p>Sua escolha:</p>
+                    <span id="escolha-jogador2">?</span>
+                </div>
+            </div>
+        </div>
+
+        <button id="btn-reset">Jogar de novo</button>
     </div>
+
+    <script src="script.js"></script>
 </body>
-<script src="LogicaBatalha.js"></script>
 </html>
