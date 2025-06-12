@@ -3,43 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Pedra, Papel e Tesoura</title>
 </head>
 <body>
 
-    <div>
-        <h1>Pedra, Papel e Tesoura</h1>
-        <h2 id="status-jogo">Vez do Jogador 1</h2>
+    <div class="div-jogo">
+        <h1 class="titulo"> Ultimate Pedra, Papel e Tesoura</h1>
+        <h2 class="valorp" id="status-jogo">Vez do Jogador 1</h2>
 
         <div>
             <div id="jogador1">
-                <h2>Jogador 1</h2>
-                <div>
+                <h2 class="sub-titulo">Jogador 1</h2>
+                <div class="opcoes-game-p1">
+                    <button class="btn-escolha" data-choice="pedra">✊ Pedra</button>
+                    <button class="btn-escolha" data-choice="papel">✋ Papel</button>
+                    <button class="btn-escolha" data-choice="tesoura">✌️ Tesoura</button>
+                </div>
+                <div class="display-escolha">
+                    <p>Sua escolha:</p> 
+                    <span class="botaorst" id="escolha-jogador1">?</span>
+                </div>
+            </div>
+
+            <div id="jogador2">
+                <h2 class="sub-titulo">Jogador 2</h2>
+                <div class="opcoes-game-p2">
                     <button class="btn-escolha" data-choice="pedra">✊ Pedra</button>
                     <button class="btn-escolha" data-choice="papel">✋ Papel</button>
                     <button class="btn-escolha" data-choice="tesoura">✌️ Tesoura</button>
                 </div>
                 <div class="display-escolha">
                     <p>Sua escolha:</p>
-                    <span id="escolha-jogador1">?</span>
-                </div>
-            </div>
-
-            <div id="jogador2">
-                <h2>Jogador 2</h2>
-                <div>
-                    <button class="btn-escolha" data-choice="pedra">✊ Pedra</button>
-                    <button class="btn-escolha" data-choice="papel">✋ Papel</button>
-                    <button class="btn-escolha" data-choice="tesoura">✌️ Tesoura</button>
-                </div>
-                <div>
-                    <p>Sua escolha:</p>
-                    <span id="escolha-jogador2">?</span>
+                    <span class="resp" id="escolha-jogador2">?</span>
                 </div>
             </div>
         </div>
 
-        <button id="btn-reset">Jogar de novo</button>
+        <button class="botaorst" id="btn-reset">Jogar de novo</button>
     </div>
 
     <script src="script.js"></script>
