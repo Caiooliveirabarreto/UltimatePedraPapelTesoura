@@ -5,7 +5,7 @@
 }
 
 body {
-     background-color: #77bae0;
+     background-color: #71b4db;
      height: 100vh;
      display: flex;
      flex-direction: column ;
@@ -18,8 +18,30 @@ body {
      border-bottom: 2px solid #66e8ff;
      padding: 5%;
 }
+
+
+
+#jogador1 {
+     padding: 5px;
+     margin: 5px;
+     color: rgb(255, 255, 255);
+     box-shadow: 6px 6px 8px rgb(4, 45, 92);
+     margin: 10px;
+    
+     
+}
+
+#jogador2 {
+     padding: 5px;
+     margin: 5px;
+     color: rgb(255, 255, 255);
+     box-shadow: 6px 6px 8px rgb(4, 45, 92);
+     margin: 10px;
+}
+
 .valorp{
      color: #e6f6ff;
+
 }
 
 .div-jogo {
@@ -28,16 +50,19 @@ body {
      align-items: center;
      padding: 3em;
      gap: 15px;
-     background-color: #4190be;
+     background-color: #3180ad;
      width: fit-content;
+     text-align: center;
      border-radius: 50px;
      border-left: 2px solid #1eddff;
-     box-shadow: 5px 4px 8px #7cf6ff;
+     box-shadow: 5px 5px 8px #045abd;
 }    
 
 .opcoes-game-p1 {
      gap: 50x;
      margin: 15px;
+     
+    
 }
 
 .opcoes-game-p2 {
@@ -55,12 +80,14 @@ body {
      margin: 10px;
      border: none;
      cursor: pointer;    
+     box-shadow: 6px 5px 5px rgb(1, 93, 146);
      
 }
 
 .display-escolha {
      padding: 5px;
-     border-top: 2px solid #1eddff;
+     border-top: 2px solid #58e6ff;
+     color: rgb(0, 29, 56);
  
 } 
 
@@ -68,10 +95,7 @@ body {
      transform: scale(1.05);
 }
 
-.sub-tiutlo {
-     padding: 10px;
-     margin: 5px;
-}
+
 
 .botaorst:hover {
      transform: scale(1.2);
@@ -82,7 +106,7 @@ body {
      padding: 10px;
      border-radius: 20px;
      border: none;
-     box-shadow: 5px 4px 8px #05c5d3;
+     box-shadow: 5px 5px 6px #1e5fd7;
      align-items: center;
     
 }
