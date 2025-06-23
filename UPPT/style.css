@@ -1,0 +1,113 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+     background-color: #71b4db;
+     height: 100vh;
+     display: flex;
+     flex-direction: column ;
+     justify-content: center;
+     align-items: center;
+    
+}
+.titulo{
+     color: white;
+     border-bottom: 2px solid #66e8ff;
+     padding: 5%;
+}
+
+
+
+#jogador1 {
+     padding: 5px;
+     margin: 5px;
+     color: rgb(255, 255, 255);
+     box-shadow: 6px 6px 8px rgb(4, 45, 92);
+     margin: 10px;
+    
+     
+}
+
+#jogador2 {
+     padding: 5px;
+     margin: 5px;
+     color: rgb(255, 255, 255);
+     box-shadow: 6px 6px 8px rgb(4, 45, 92);
+     margin: 10px;
+}
+
+.valorp{
+     color: #e6f6ff;
+
+}
+
+.div-jogo {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 3em;
+     gap: 15px;
+     background-color: #3180ad;
+     width: fit-content;
+     text-align: center;
+     border-radius: 50px;
+     border-left: 2px solid #1eddff;
+     box-shadow: 5px 5px 8px #045abd;
+}    
+
+.opcoes-game-p1 {
+     gap: 50x;
+     margin: 15px;
+     
+    
+}
+
+.opcoes-game-p2 {
+     gap: 50x; 
+     margin: 15px;
+}    
+
+.status-jogo {
+     padding: 10px;
+}
+
+.btn-escolha { 
+     padding: 10px;
+     border-radius: 8px;
+     margin: 10px;
+     border: none;
+     cursor: pointer;    
+     box-shadow: 6px 5px 5px rgb(1, 93, 146);
+     
+}
+
+.display-escolha {
+     padding: 5px;
+     border-top: 2px solid #58e6ff;
+     color: rgb(0, 29, 56);
+ 
+} 
+
+.btn-escolha:hover {
+     transform: scale(1.05);
+}
+
+
+
+.botaorst:hover {
+     transform: scale(1.2);
+}
+
+#btn-reset {
+     font-size: 1em;
+     padding: 10px;
+     border-radius: 20px;
+     border: none;
+     box-shadow: 5px 5px 6px #1e5fd7;
+     align-items: center;
+    
+}
+
